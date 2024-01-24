@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(69, 70, 73);
+}
+#options .rock{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    font-size: 5rem;
+    background-color: rgb(28, 105, 227);
+    align-items: center;
+    justify-content: center;
+}
+#options .paper{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    font-size: 5rem;
+    align-items: center;
+    margin-bottom: 86px;
+    margin-left: 76px;
+    background-color: rgb(62, 213, 67);
+    justify-content: center;
+}
+#options .scissors{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    margin-bottom: 86px;
+    margin-left: 76px;
+    background-color: rgb(226, 223, 43);
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+#options .rock:hover{
+    background-color: rgb(12, 181, 233);
+    transition: 0.3s ease-in-out;
+}
+#options .paper:hover{
+    background-color: rgb(16, 246, 146);
+    transition: 0.3s ease-in-out;
+}
+#options .start:hover{
+    background-color: rgb(86, 244, 81);
+    transition: 0.3s ease-in-out;
+}
+#options .scissors:hover{
+    background-color: rgb(186, 250, 38);
+    transition: 0.3s ease-in-out;
+}
+#options .rock:active{
+    background-color: rgb(6, 211, 247);
+}
+#options .paper:active{
+    background-color: rgb(229, 253, 17);
+}
+#options .scissors:active{
+    background-color: rgb(7, 255, 12);
+}
+#win-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    margin-bottom: 86px;
+    margin-left: 76px;
+    background-color: rgb(43, 226, 67);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
